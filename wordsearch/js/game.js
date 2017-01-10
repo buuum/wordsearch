@@ -63,16 +63,16 @@ Game = (function() {
     height = puzzle.length;
     while (i < height) {
       row = puzzle[i];
-      output += '<div>';
+      output += '<ul>';
       j = 0;
       width = row.length;
       while (j < width) {
-        output += '<button class="' + this.name(this.options.button_class) + '" x="' + j + '" y="' + i + '">';
+        output += '<li class="' + this.name(this.options.button_class) + '" x="' + j + '" y="' + i + '">';
         output += row[j] || '&nbsp;';
-        output += '</button>';
+        output += '</li>';
         j++;
       }
-      output += '</div>';
+      output += '</ul>';
       i++;
     }
     $(this.options.container_game).append(output);
