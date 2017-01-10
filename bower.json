@@ -3,7 +3,8 @@
   "homepage": "https://github.com/buuum/wordsearch",
   "description": "Word Search jQuery Game",
   "main": [
-    "wordsearch/js/wordsearch.min.js"
+    "wordsearch/js/wordsearch.min.js",
+    "wordsearch/js/game.min.js"
   ],
   "keywords": [
     "word search",
