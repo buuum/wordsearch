@@ -1,0 +1,21 @@
+{
+  "name": "wordsearch",
+  "homepage": "https://github.com/buuum/wordsearch",
+  "description": "Word Search jQuery Game",
+  "main": [
+    "wordsearch/js/wordsearch.min.js"
+  ],
+  "keywords": [
+    "word search",
+    "wordsearch",
+    "game",
+    "word search game"
+  ],
+  "authors": [
+    "buuum"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "license": "MIT"
+}
